@@ -1,0 +1,10 @@
+workspace.packages = ["macros"]
+
+[package]
+name = "lol"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.macros]
+features = ["bot"]
+path = "./macros"
